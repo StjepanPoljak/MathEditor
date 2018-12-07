@@ -383,6 +383,10 @@
     } else if (_insertionIndex.subIndexType == kMTSubIndexTypeRadicand) {
         self.keyboard.squareRootHighlighted = YES;
     }
+    
+    if (_insertionIndex.subIndexType == kMTSubIndexTypeNone) {
+        self.keyboard.equalsAllowed = YES;
+    }
 }
 
 - (void)insertMathList:(MTMathList *)list atPoint:(CGPoint)point

@@ -159,8 +159,8 @@
                         <action selector="keyPressed:" destination="1" eventType="touchUpInside" id="104"/>
                     </connections>
                 </button>
-                <button opaque="NO" tag="3" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="69">
-                    <rect key="frame" x="199" y="90" width="49" height="45"/>
+                <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="69">
+                    <rect key="frame" x="199" y="90" width="50" height="45"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="25"/>
                     <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="9"/>
                     <state key="normal" title="-">
@@ -174,8 +174,8 @@
                         <action selector="keyPressed:" destination="1" eventType="touchUpInside" id="87"/>
                     </connections>
                 </button>
-                <button opaque="NO" tag="3" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="70">
-                    <rect key="frame" x="199" y="45" width="49" height="45"/>
+                <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="70">
+                    <rect key="frame" x="199" y="45" width="50" height="45"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
                     <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="7"/>
                     <state key="normal" title="×">
@@ -189,8 +189,8 @@
                         <action selector="keyPressed:" destination="1" eventType="touchUpInside" id="9va-cS-MAe"/>
                     </connections>
                 </button>
-                <button opaque="NO" tag="3" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="71">
-                    <rect key="frame" x="199" y="0.0" width="49" height="45"/>
+                <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="71">
+                    <rect key="frame" x="199" y="0.0" width="50" height="45"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
                     <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="5"/>
                     <state key="normal" title="÷">
@@ -204,8 +204,8 @@
                         <action selector="keyPressed:" destination="1" eventType="touchUpInside" id="130"/>
                     </connections>
                 </button>
-                <button opaque="NO" tag="3" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="72">
-                    <rect key="frame" x="248" y="45" width="72" height="90"/>
+                <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="72">
+                    <rect key="frame" x="249" y="45" width="71" height="90"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
                     <state key="normal" title="Enter">
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -218,8 +218,8 @@
                         <action selector="enterPressed:" destination="1" eventType="touchUpInside" id="sW9-d9-oja"/>
                     </connections>
                 </button>
-                <button opaque="NO" tag="8" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="75" userLabel="BackspaceButton">
-                    <rect key="frame" x="248" y="0.0" width="72" height="45"/>
+                <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="75" userLabel="BackspaceButton">
+                    <rect key="frame" x="249" y="0.0" width="71" height="45"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
                     <state key="normal" image="Backspace">
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -232,8 +232,8 @@
                         <action selector="backspacePressed:" destination="1" eventType="touchUpInside" id="100"/>
                     </connections>
                 </button>
-                <button opaque="NO" tag="8" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="77" userLabel="DismissButton">
-                    <rect key="frame" x="248" y="135" width="72" height="45"/>
+                <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="77" userLabel="DismissButton">
+                    <rect key="frame" x="249" y="135" width="71" height="45"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
                     <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="5"/>
                     <state key="normal" image="Keyboard Down">
@@ -312,8 +312,8 @@
                         <action selector="fractionPressed:" destination="1" eventType="touchUpInside" id="Y0h-uu-bP7"/>
                     </connections>
                 </button>
-                <button opaque="NO" tag="3" contentMode="bottomLeft" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="68">
-                    <rect key="frame" x="199" y="135" width="49" height="45"/>
+                <button opaque="NO" tag="3" contentMode="bottomLeft" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="68">
+                    <rect key="frame" x="199" y="135" width="50" height="45"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
                     <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="5"/>
                     <state key="normal" title="+">
@@ -405,7 +405,7 @@
                 <constraint firstItem="6" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" id="OHQ-se-B2q"/>
                 <constraint firstItem="71" firstAttribute="bottom" secondItem="11" secondAttribute="bottom" id="PYE-fy-5S5"/>
                 <constraint firstItem="13" firstAttribute="height" secondItem="ST5-ST-guE" secondAttribute="height" id="PhQ-em-2hz"/>
-                <constraint firstItem="g7R-OV-I04" firstAttribute="bottom" secondItem="ST5-ST-guE" secondAttribute="bottom" id="Qsi-he-4ab"/>
+                <constraint firstItem="g7R-OV-I04" firstAttribute="bottom" secondItem="SIf-sb-Rem" secondAttribute="bottom" id="Qsi-he-4ab"/>
                 <constraint firstItem="11" firstAttribute="trailing" secondItem="8" secondAttribute="trailing" id="Rwo-r8-yUd"/>
                 <constraint firstItem="5" firstAttribute="leading" secondItem="8" secondAttribute="leading" id="S1V-7r-Ewp"/>
                 <constraint firstItem="70" firstAttribute="leading" secondItem="69" secondAttribute="leading" id="SLv-0Q-NwT"/>
@@ -441,6 +441,7 @@
                 <constraint firstItem="77" firstAttribute="trailing" secondItem="72" secondAttribute="trailing" id="iya-DY-DNd"/>
                 <constraint firstItem="68" firstAttribute="height" secondItem="ST5-ST-guE" secondAttribute="height" id="j0J-Dv-1ON"/>
                 <constraint firstItem="68" firstAttribute="trailing" secondItem="69" secondAttribute="trailing" id="jKt-h2-jPb"/>
+                <constraint firstItem="ST5-ST-guE" firstAttribute="bottom" secondItem="1" secondAttribute="bottom" id="lAS-2u-HYe"/>
                 <constraint firstItem="g7R-OV-I04" firstAttribute="trailing" secondItem="77" secondAttribute="trailing" id="lAl-8m-ooE"/>
                 <constraint firstItem="11" firstAttribute="leading" secondItem="8" secondAttribute="leading" id="mBE-MN-kV7"/>
                 <constraint firstItem="78" firstAttribute="width" secondItem="ST5-ST-guE" secondAttribute="width" id="mdF-ph-TBg"/>
