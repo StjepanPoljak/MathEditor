@@ -40,6 +40,9 @@
 @property (weak, nonatomic) IBOutlet UIButton *muNu;
 @property (weak, nonatomic) IBOutlet UIButton *lambdaBeta;
 
+@property (strong, nonatomic) IBOutletCollection(NSLayoutConstraint) NSArray *verticalSpacing;
+
+
 - (IBAction) keyPressed:(id)sender;
 - (IBAction) backspacePressed:(id)sender;
 - (IBAction) enterPressed:(id)sender;
