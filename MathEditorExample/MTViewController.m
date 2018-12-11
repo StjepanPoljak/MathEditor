@@ -25,6 +25,8 @@
     self.mathLabel.layer.borderWidth = 2;
     self.mathLabel.layer.cornerRadius = 5;
     self.mathLabel.keyboard = [MTMathKeyboardRootView sharedInstance];
+    [((MTMathKeyboardRootView *)self.mathLabel.keyboard) setPadding: 4.0 y: 4.0];
+    [((MTMathKeyboardRootView *)self.mathLabel.keyboard) setMargins: 8.0 y: 8.0];
     self.mathLabel.delegate = self;
     [self.mathLabel enableTap:YES];
 }

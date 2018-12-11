@@ -234,4 +234,32 @@ static NSInteger const DEFAULT_KEYBOARD = 0;
     }
 }
 
+- (void) setPadding: (CGFloat)x y:(CGFloat)y
+{
+    for (MTKeyboard *keyboard in _keyboards) {
+        
+        for (NSLayoutConstraint *constraint in keyboard.horizontalSpacing) {
+            constraint.constant = x;
+        }
+        
+        for (NSLayoutConstraint *constraint in keyboard.verticalSpacing) {
+            constraint.constant = y;
+        }
+    }
+}
+
+- (void) setMargins: (CGFloat)x y:(CGFloat)y
+{
+    for (MTKeyboard *keyboard in _keyboards) {
+        
+        for (NSLayoutConstraint *constraint in keyboard.xMargins) {
+            constraint.constant = x;
+        }
+        
+        for (NSLayoutConstraint *constraint in keyboard.yMargins) {
+            constraint.constant = y;
+        }
+    }
+}
+
 @end

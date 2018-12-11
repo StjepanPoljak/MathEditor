@@ -25,6 +25,9 @@
 
 - (void) switchToDefaultTab;
 
+- (void) setPadding: (CGFloat)x y:(CGFloat)y;
+- (void) setMargins: (CGFloat)x y:(CGFloat)y;
+
 + (MTMathKeyboardRootView *)sharedInstance;
 
 /// The keyboard resources bundle.

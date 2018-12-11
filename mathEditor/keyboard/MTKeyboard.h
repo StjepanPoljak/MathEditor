@@ -42,6 +42,11 @@
 
 @property (strong, nonatomic) IBOutletCollection(NSLayoutConstraint) NSArray *verticalSpacing;
 
+@property (strong, nonatomic) IBOutletCollection(NSLayoutConstraint) NSArray *horizontalSpacing;
+
+@property (strong, nonatomic) IBOutletCollection(NSLayoutConstraint) NSArray *xMargins;
+
+@property (strong, nonatomic) IBOutletCollection(NSLayoutConstraint) NSArray *yMargins;
 
 - (IBAction) keyPressed:(id)sender;
 - (IBAction) backspacePressed:(id)sender;

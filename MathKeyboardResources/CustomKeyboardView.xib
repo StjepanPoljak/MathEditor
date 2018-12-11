@@ -17,7 +17,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <button tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RP9-yM-Afd">
-                    <rect key="frame" x="45" y="95" width="35" height="40.5"/>
+                    <rect key="frame" x="44.5" y="95" width="35" height="40.5"/>
                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
                     <state key="normal" title="1">
@@ -27,9 +27,12 @@
                     <state key="highlighted" backgroundImage="Keyboard-grey-pressed">
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
+                    <connections>
+                        <action selector="keyPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="1z7-ab-yLO"/>
+                    </connections>
                 </button>
                 <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l2d-hE-BJc">
-                    <rect key="frame" x="84" y="95" width="34.5" height="40.5"/>
+                    <rect key="frame" x="83.5" y="95" width="34.5" height="40.5"/>
                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
                     <state key="normal" title="2">
@@ -39,9 +42,12 @@
                     <state key="highlighted" backgroundImage="Keyboard-grey-pressed">
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
+                    <connections>
+                        <action selector="keyPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="cyA-7s-kk1"/>
+                    </connections>
                 </button>
                 <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JbA-WC-Qzu">
-                    <rect key="frame" x="122.5" y="95" width="35" height="40.5"/>
+                    <rect key="frame" x="122" y="95" width="34.5" height="40.5"/>
                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
                     <state key="normal" title="3">
@@ -51,9 +57,12 @@
                     <state key="highlighted" backgroundImage="Keyboard-grey-pressed">
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
+                    <connections>
+                        <action selector="keyPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="rCn-z2-jbE"/>
+                    </connections>
                 </button>
                 <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DC8-mL-5sk">
-                    <rect key="frame" x="45" y="50.5" width="35" height="40.5"/>
+                    <rect key="frame" x="44.5" y="50.5" width="35" height="40.5"/>
                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
                     <state key="normal" title="4">
@@ -63,9 +72,12 @@
                     <state key="highlighted" backgroundImage="Keyboard-grey-pressed">
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
+                    <connections>
+                        <action selector="keyPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="rUC-it-lez"/>
+                    </connections>
                 </button>
                 <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hEc-Of-BWX">
-                    <rect key="frame" x="84" y="50.5" width="34.5" height="40.5"/>
+                    <rect key="frame" x="83.5" y="50.5" width="34.5" height="40.5"/>
                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
                     <state key="normal" title="5">
@@ -75,9 +87,12 @@
                     <state key="highlighted" backgroundImage="Keyboard-grey-pressed">
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
+                    <connections>
+                        <action selector="keyPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="H6C-aH-9OB"/>
+                    </connections>
                 </button>
                 <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JVf-CT-bhz">
-                    <rect key="frame" x="45" y="6" width="35" height="40.5"/>
+                    <rect key="frame" x="44.5" y="6" width="35" height="40.5"/>
                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
                     <state key="normal" title="7">
@@ -87,9 +102,12 @@
                     <state key="highlighted" backgroundImage="Keyboard-grey-pressed">
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
+                    <connections>
+                        <action selector="keyPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="31J-7J-fVO"/>
+                    </connections>
                 </button>
                 <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kth-ZU-lYo">
-                    <rect key="frame" x="84" y="6" width="34.5" height="40.5"/>
+                    <rect key="frame" x="83.5" y="6" width="34.5" height="40.5"/>
                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
                     <state key="normal" title="8">
@@ -99,9 +117,12 @@
                     <state key="highlighted" backgroundImage="Keyboard-grey-pressed">
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
+                    <connections>
+                        <action selector="keyPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="dl4-rZ-UOE"/>
+                    </connections>
                 </button>
                 <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mDH-rq-gMG">
-                    <rect key="frame" x="122.5" y="6" width="35" height="40.5"/>
+                    <rect key="frame" x="122" y="6" width="34.5" height="40.5"/>
                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
                     <state key="normal" title="9">
@@ -111,9 +132,12 @@
                     <state key="highlighted" backgroundImage="Keyboard-grey-pressed">
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
+                    <connections>
+                        <action selector="keyPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="9Cg-nV-fdR"/>
+                    </connections>
                 </button>
                 <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="usv-JY-QTM">
-                    <rect key="frame" x="84" y="139.5" width="34.5" height="40.5"/>
+                    <rect key="frame" x="83.5" y="139.5" width="34.5" height="40.5"/>
                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
                     <state key="normal" title=".">
@@ -123,9 +147,12 @@
                     <state key="highlighted" backgroundImage="Keyboard-grey-pressed">
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
+                    <connections>
+                        <action selector="keyPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="4TO-xC-7QE"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ka-vd-Eof">
-                    <rect key="frame" x="45" y="139.5" width="35" height="40.5"/>
+                    <rect key="frame" x="44.5" y="139.5" width="35" height="40.5"/>
                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
                     <state key="normal" title="0">
@@ -135,12 +162,14 @@
                     <state key="highlighted" backgroundImage="Keyboard-grey-pressed">
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
+                    <connections>
+                        <action selector="keyPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="RWK-jh-BME"/>
+                    </connections>
                 </button>
                 <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E7D-8t-gTW">
-                    <rect key="frame" x="161.5" y="50.5" width="35" height="40.5"/>
+                    <rect key="frame" x="160.5" y="50.5" width="35" height="40.5"/>
                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
-                    <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="7"/>
                     <state key="normal" title="×">
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -148,12 +177,14 @@
                     <state key="highlighted" backgroundImage="Keyboard-orange-pressed">
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
+                    <connections>
+                        <action selector="keyPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="Ynl-d3-QD6"/>
+                    </connections>
                 </button>
                 <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6hR-bV-Lbn">
-                    <rect key="frame" x="161.5" y="6" width="35" height="40.5"/>
+                    <rect key="frame" x="160.5" y="6" width="35" height="40.5"/>
                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
-                    <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="5"/>
                     <state key="normal" title="÷">
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -161,12 +192,14 @@
                     <state key="highlighted" backgroundImage="Keyboard-orange-pressed">
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
+                    <connections>
+                        <action selector="fractionPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="pl9-Zu-NOx"/>
+                    </connections>
                 </button>
                 <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W9z-M8-nqP">
-                    <rect key="frame" x="122.5" y="139.5" width="35" height="40.5"/>
+                    <rect key="frame" x="122" y="139.5" width="34.5" height="40.5"/>
                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="25"/>
-                    <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="2"/>
                     <state key="normal" title="=">
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -177,12 +210,14 @@
                     <state key="highlighted" backgroundImage="Keyboard-grey-pressed">
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
+                    <connections>
+                        <action selector="keyPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="LYf-vw-Vzo"/>
+                    </connections>
                 </button>
                 <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IXN-DH-cDC" userLabel="y">
-                    <rect key="frame" x="6" y="50.5" width="35" height="40.5"/>
+                    <rect key="frame" x="6" y="50.5" width="34.5" height="40.5"/>
                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
-                    <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="10"/>
                     <state key="normal" title="y">
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -190,9 +225,12 @@
                     <state key="highlighted" backgroundImage="Keyboard-marine-pressed">
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
+                    <connections>
+                        <action selector="keyPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="MWZ-Mq-CG4"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6kS-s6-Fea" userLabel="ExponentButton">
-                    <rect key="frame" x="6" y="139.5" width="35" height="40.5"/>
+                    <rect key="frame" x="6" y="139.5" width="34.5" height="40.5"/>
                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="18"/>
                     <state key="normal" title="pi">
@@ -200,22 +238,26 @@
                     </state>
                     <state key="selected" backgroundImage="blue-button-highlighted"/>
                     <state key="highlighted" backgroundImage="Keyboard-marine-pressed"/>
+                    <connections>
+                        <action selector="keyPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="8ot-9A-chN"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5l9-te-B6u" userLabel="FractionButton">
-                    <rect key="frame" x="6" y="95" width="35" height="40.5"/>
+                    <rect key="frame" x="6" y="95" width="34.5" height="40.5"/>
                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="18"/>
-                    <inset key="contentEdgeInsets" minX="0.0" minY="5" maxX="0.0" maxY="5"/>
                     <state key="normal" title="e">
                         <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
                     <state key="highlighted" backgroundImage="Keyboard-marine-pressed"/>
+                    <connections>
+                        <action selector="keyPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="fwn-Ue-FIU"/>
+                    </connections>
                 </button>
                 <button opaque="NO" tag="3" contentMode="bottomLeft" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hvd-M4-qHo">
-                    <rect key="frame" x="161.5" y="139.5" width="35" height="40.5"/>
+                    <rect key="frame" x="160.5" y="139.5" width="35" height="40.5"/>
                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
-                    <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="5"/>
                     <state key="normal" title="+">
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -223,12 +265,14 @@
                     <state key="highlighted" backgroundImage="Keyboard-orange-pressed">
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
+                    <connections>
+                        <action selector="keyPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="2GT-m7-vcY"/>
+                    </connections>
                 </button>
                 <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0W3-KV-yRw">
-                    <rect key="frame" x="6" y="6" width="35" height="40.5"/>
+                    <rect key="frame" x="6" y="6" width="34.5" height="40.5"/>
                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
-                    <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="10"/>
                     <state key="normal" title="x">
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -236,9 +280,12 @@
                     <state key="highlighted" backgroundImage="Keyboard-marine-pressed">
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
+                    <connections>
+                        <action selector="keyPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="N4y-JX-DwZ"/>
+                    </connections>
                 </button>
                 <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KSo-nf-8in">
-                    <rect key="frame" x="122.5" y="50.5" width="35" height="40.5"/>
+                    <rect key="frame" x="122" y="50.5" width="34.5" height="40.5"/>
                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
                     <state key="normal" title="6">
@@ -248,12 +295,14 @@
                     <state key="highlighted" backgroundImage="Keyboard-grey-pressed">
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
+                    <connections>
+                        <action selector="keyPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="QMs-W9-BTs"/>
+                    </connections>
                 </button>
                 <button opaque="NO" tag="3" contentMode="bottomLeft" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eKI-Yk-5pg">
-                    <rect key="frame" x="161.5" y="95" width="35" height="40.5"/>
+                    <rect key="frame" x="160.5" y="95" width="35" height="40.5"/>
                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
-                    <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="5"/>
                     <state key="normal" title="-">
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -261,12 +310,14 @@
                     <state key="highlighted" backgroundImage="Keyboard-orange-pressed">
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
+                    <connections>
+                        <action selector="keyPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="PxC-gQ-u6p"/>
+                    </connections>
                 </button>
                 <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="94d-CY-nvE">
-                    <rect key="frame" x="200.5" y="6" width="35" height="40.5"/>
+                    <rect key="frame" x="199.5" y="6" width="34.5" height="40.5"/>
                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
-                    <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="5"/>
                     <state key="normal" title="sin">
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -276,10 +327,9 @@
                     </state>
                 </button>
                 <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iIG-g5-bL7">
-                    <rect key="frame" x="200.5" y="50.5" width="35" height="40.5"/>
+                    <rect key="frame" x="199.5" y="50.5" width="34.5" height="40.5"/>
                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
-                    <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="5"/>
                     <state key="normal" title="cos">
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -289,10 +339,9 @@
                     </state>
                 </button>
                 <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2gP-WF-b9M">
-                    <rect key="frame" x="200.5" y="95" width="35" height="40.5"/>
+                    <rect key="frame" x="199.5" y="95" width="34.5" height="40.5"/>
                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
-                    <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="5"/>
                     <state key="normal" title="tan">
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -302,10 +351,9 @@
                     </state>
                 </button>
                 <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T1x-SZ-7Wp">
-                    <rect key="frame" x="200.5" y="139.5" width="35" height="40.5"/>
+                    <rect key="frame" x="199.5" y="139.5" width="34.5" height="40.5"/>
                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
-                    <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="5"/>
                     <state key="normal" title="inv">
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -314,11 +362,10 @@
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
                 </button>
-                <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uOM-eu-V5d">
-                    <rect key="frame" x="239.5" y="50.5" width="34.5" height="40.5"/>
+                <button opaque="NO" tag="3" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uOM-eu-V5d">
+                    <rect key="frame" x="238" y="50.5" width="34.5" height="40.5"/>
                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
-                    <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="7"/>
                     <state key="normal" image="Exponent">
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -326,12 +373,14 @@
                     <state key="highlighted" backgroundImage="Keyboard-orange-pressed">
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
+                    <connections>
+                        <action selector="exponentPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="HLJ-WP-N8x"/>
+                    </connections>
                 </button>
                 <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oJ7-bl-9pg">
-                    <rect key="frame" x="239.5" y="6" width="34.5" height="40.5"/>
+                    <rect key="frame" x="238" y="6" width="34.5" height="40.5"/>
                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
-                    <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="5"/>
                     <state key="normal" title="x2">
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -340,11 +389,10 @@
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
                 </button>
-                <button opaque="NO" tag="3" contentMode="bottomLeft" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1UZ-bt-OoU">
-                    <rect key="frame" x="239.5" y="139.5" width="34.5" height="40.5"/>
+                <button opaque="NO" tag="3" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1UZ-bt-OoU">
+                    <rect key="frame" x="238" y="139.5" width="34.5" height="40.5"/>
                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
-                    <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="5"/>
                     <state key="normal" image="Sqrt with Power">
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -354,10 +402,9 @@
                     </state>
                 </button>
                 <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ot9-rV-AAK">
-                    <rect key="frame" x="239.5" y="95" width="34.5" height="40.5"/>
+                    <rect key="frame" x="238" y="95" width="34.5" height="40.5"/>
                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
-                    <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="5"/>
                     <state key="normal" title="sqrt">
                         <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                         <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -367,10 +414,9 @@
                     </state>
                 </button>
                 <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QKN-Fp-4Af">
-                    <rect key="frame" x="278" y="50.5" width="35" height="40.5"/>
+                    <rect key="frame" x="276.5" y="50.5" width="35" height="40.5"/>
                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
-                    <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="5"/>
                     <state key="normal" title="( )">
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -378,12 +424,14 @@
                     <state key="highlighted" backgroundImage="Keyboard-orange-pressed">
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
+                    <connections>
+                        <action selector="parensPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="ph8-za-vGo"/>
+                    </connections>
                 </button>
                 <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hFQ-pq-jSh">
-                    <rect key="frame" x="278" y="95" width="35" height="40.5"/>
+                    <rect key="frame" x="276.5" y="95" width="35" height="40.5"/>
                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
-                    <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="5"/>
                     <state key="normal" title="| |">
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -391,12 +439,14 @@
                     <state key="highlighted" backgroundImage="Keyboard-orange-pressed">
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
+                    <connections>
+                        <action selector="absValuePressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="OvI-QK-JZd"/>
+                    </connections>
                 </button>
                 <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="STP-DM-Sfl">
-                    <rect key="frame" x="278" y="139.5" width="35" height="40.5"/>
+                    <rect key="frame" x="276.5" y="139.5" width="35" height="40.5"/>
                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
-                    <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="5"/>
                     <state key="normal" title="log">
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -404,12 +454,14 @@
                     <state key="highlighted" backgroundImage="Keyboard-orange-pressed">
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
+                    <connections>
+                        <action selector="logWithBasePressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="xzc-yf-LjS"/>
+                    </connections>
                 </button>
                 <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7TR-s3-OUP">
-                    <rect key="frame" x="278" y="6" width="74" height="40.5"/>
+                    <rect key="frame" x="276.5" y="6" width="73.5" height="40.5"/>
                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
-                    <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="5"/>
                     <state key="normal" title="&lt;-">
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -417,12 +469,14 @@
                     <state key="highlighted" backgroundImage="Keyboard-orange-pressed">
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
+                    <connections>
+                        <action selector="backspacePressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="mmT-pP-fdP"/>
+                    </connections>
                 </button>
                 <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BQx-Z3-w0v">
-                    <rect key="frame" x="317" y="50.5" width="35" height="40.5"/>
+                    <rect key="frame" x="315.5" y="50.5" width="34.5" height="40.5"/>
                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
-                    <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="5"/>
                     <state key="normal" title="rad">
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -432,10 +486,9 @@
                     </state>
                 </button>
                 <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Nf-v4-21D">
-                    <rect key="frame" x="317" y="95" width="35" height="85"/>
+                    <rect key="frame" x="315.5" y="95" width="34.5" height="85"/>
                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
-                    <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="5"/>
                     <state key="normal" title="RET">
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -443,13 +496,15 @@
                     <state key="highlighted" backgroundImage="Keyboard-orange-pressed">
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
+                    <connections>
+                        <action selector="enterPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="aQZ-34-P23"/>
+                    </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="7TR-s3-OUP" firstAttribute="leading" secondItem="QKN-Fp-4Af" secondAttribute="leading" id="09A-G4-KpR"/>
                 <constraint firstItem="hEc-Of-BWX" firstAttribute="leading" secondItem="Kth-ZU-lYo" secondAttribute="leading" id="0Ck-8v-Bip"/>
-                <constraint firstItem="oJ7-bl-9pg" firstAttribute="trailing" secondItem="uOM-eu-V5d" secondAttribute="trailing" id="0Fm-bw-PTY"/>
                 <constraint firstItem="W9z-M8-nqP" firstAttribute="trailing" secondItem="JbA-WC-Qzu" secondAttribute="trailing" id="1IE-x5-o7T"/>
                 <constraint firstItem="2gP-WF-b9M" firstAttribute="top" secondItem="eKI-Yk-5pg" secondAttribute="top" id="1dV-mr-SGE"/>
                 <constraint firstItem="oJ7-bl-9pg" firstAttribute="top" secondItem="94d-CY-nvE" secondAttribute="top" id="2Bw-xu-tbJ"/>
@@ -457,15 +512,11 @@
                 <constraint firstItem="6kS-s6-Fea" firstAttribute="width" secondItem="usv-JY-QTM" secondAttribute="width" id="3M6-gu-lLu"/>
                 <constraint firstItem="hEc-Of-BWX" firstAttribute="trailing" secondItem="Kth-ZU-lYo" secondAttribute="trailing" id="3Vg-nC-krq"/>
                 <constraint firstItem="usv-JY-QTM" firstAttribute="leading" secondItem="l2d-hE-BJc" secondAttribute="leading" id="3iw-iJ-803"/>
-                <constraint firstItem="94d-CY-nvE" firstAttribute="width" secondItem="6hR-bV-Lbn" secondAttribute="width" id="5AQ-az-uHe"/>
+                <constraint firstItem="uOM-eu-V5d" firstAttribute="trailing" secondItem="ot9-rV-AAK" secondAttribute="trailing" id="4z9-ER-39b"/>
                 <constraint firstItem="iIG-g5-bL7" firstAttribute="leading" secondItem="94d-CY-nvE" secondAttribute="leading" id="5C3-u0-VeD"/>
                 <constraint firstItem="DC8-mL-5sk" firstAttribute="leading" secondItem="RP9-yM-Afd" secondAttribute="leading" id="5WR-OG-BGV"/>
-                <constraint firstItem="uOM-eu-V5d" firstAttribute="width" secondItem="1UZ-bt-OoU" secondAttribute="width" id="5e2-Sn-TuE"/>
                 <constraint firstItem="1UZ-bt-OoU" firstAttribute="bottom" secondItem="T1x-SZ-7Wp" secondAttribute="bottom" id="5kj-NS-8Td"/>
-                <constraint firstItem="iIG-g5-bL7" firstAttribute="height" secondItem="2gP-WF-b9M" secondAttribute="height" id="5nH-ki-ST4"/>
-                <constraint firstItem="7TR-s3-OUP" firstAttribute="height" secondItem="BQx-Z3-w0v" secondAttribute="height" id="60U-2c-nNT"/>
                 <constraint firstItem="0W3-KV-yRw" firstAttribute="top" secondItem="JVf-CT-bhz" secondAttribute="top" id="6LE-FT-XRE"/>
-                <constraint firstItem="ot9-rV-AAK" firstAttribute="width" secondItem="1UZ-bt-OoU" secondAttribute="width" id="6Ot-y7-pED"/>
                 <constraint firstItem="6kS-s6-Fea" firstAttribute="leading" secondItem="5l9-te-B6u" secondAttribute="leading" id="6xx-3K-UWJ"/>
                 <constraint firstItem="STP-DM-Sfl" firstAttribute="top" secondItem="1UZ-bt-OoU" secondAttribute="top" id="7kZ-5U-sh3"/>
                 <constraint firstItem="2Nf-v4-21D" firstAttribute="trailing" secondItem="BQx-Z3-w0v" secondAttribute="trailing" id="7q6-6X-Hx1"/>
@@ -476,32 +527,26 @@
                 <constraint firstItem="JVf-CT-bhz" firstAttribute="top" secondItem="Kth-ZU-lYo" secondAttribute="top" id="B3k-7S-X3i"/>
                 <constraint firstItem="JbA-WC-Qzu" firstAttribute="bottom" secondItem="l2d-hE-BJc" secondAttribute="bottom" id="BaO-TY-dSQ"/>
                 <constraint firstItem="5l9-te-B6u" firstAttribute="leading" secondItem="IXN-DH-cDC" secondAttribute="leading" id="Beb-bz-43n"/>
-                <constraint firstItem="hFQ-pq-jSh" firstAttribute="height" secondItem="STP-DM-Sfl" secondAttribute="height" id="BhA-8G-R6t"/>
-                <constraint firstItem="1UZ-bt-OoU" firstAttribute="trailing" secondItem="ot9-rV-AAK" secondAttribute="trailing" id="CyP-Dg-g3I"/>
                 <constraint firstItem="QKN-Fp-4Af" firstAttribute="trailing" secondItem="hFQ-pq-jSh" secondAttribute="trailing" id="DM1-pX-Dd5"/>
                 <constraint firstItem="hvd-M4-qHo" firstAttribute="height" secondItem="6kS-s6-Fea" secondAttribute="height" id="Dnr-7L-gpc"/>
                 <constraint firstItem="6kS-s6-Fea" firstAttribute="top" secondItem="5l9-te-B6u" secondAttribute="bottom" constant="4" id="E51-oc-zjH"/>
                 <constraint firstItem="RP9-yM-Afd" firstAttribute="top" secondItem="5l9-te-B6u" secondAttribute="top" id="E8I-9i-Hgp"/>
                 <constraint firstItem="0W3-KV-yRw" firstAttribute="width" secondItem="6kS-s6-Fea" secondAttribute="width" id="EiZ-hh-BQw"/>
                 <constraint firstItem="hvd-M4-qHo" firstAttribute="leading" secondItem="E7D-8t-gTW" secondAttribute="leading" id="EoM-WI-IQH"/>
-                <constraint firstItem="2gP-WF-b9M" firstAttribute="width" secondItem="T1x-SZ-7Wp" secondAttribute="width" id="Ewf-Nn-tkd"/>
                 <constraint firstItem="T1x-SZ-7Wp" firstAttribute="leading" secondItem="hvd-M4-qHo" secondAttribute="trailing" constant="4" id="F6M-m6-Tbg"/>
-                <constraint firstItem="QKN-Fp-4Af" firstAttribute="height" secondItem="hFQ-pq-jSh" secondAttribute="height" id="GiZ-Ml-p1v"/>
                 <constraint firstItem="DC8-mL-5sk" firstAttribute="trailing" secondItem="JVf-CT-bhz" secondAttribute="trailing" id="HeA-tD-A5V"/>
                 <constraint firstItem="7TR-s3-OUP" firstAttribute="top" secondItem="oJ7-bl-9pg" secondAttribute="top" id="IFH-V0-ApV"/>
-                <constraint firstItem="2Nf-v4-21D" firstAttribute="top" secondItem="BQx-Z3-w0v" secondAttribute="bottom" constant="4" id="ILF-eZ-kJF"/>
                 <constraint firstItem="eKI-Yk-5pg" firstAttribute="bottom" secondItem="JbA-WC-Qzu" secondAttribute="bottom" id="JM5-GR-vaB"/>
                 <constraint firstItem="6hR-bV-Lbn" firstAttribute="top" secondItem="mDH-rq-gMG" secondAttribute="top" id="JyM-mW-Sw1"/>
                 <constraint firstItem="7TR-s3-OUP" firstAttribute="bottom" secondItem="oJ7-bl-9pg" secondAttribute="bottom" id="KCV-Qd-i8V"/>
                 <constraint firstItem="DC8-mL-5sk" firstAttribute="bottom" secondItem="hEc-Of-BWX" secondAttribute="bottom" id="KJo-F3-aPR"/>
-                <constraint firstItem="QKN-Fp-4Af" firstAttribute="width" secondItem="hFQ-pq-jSh" secondAttribute="width" id="KpX-av-ye9"/>
                 <constraint firstItem="6hR-bV-Lbn" firstAttribute="bottom" secondItem="mDH-rq-gMG" secondAttribute="bottom" id="LUP-fZ-iPd"/>
                 <constraint firstItem="6kS-s6-Fea" firstAttribute="trailing" secondItem="5l9-te-B6u" secondAttribute="trailing" id="M16-PC-3ay"/>
+                <constraint firstItem="BQx-Z3-w0v" firstAttribute="bottom" secondItem="QKN-Fp-4Af" secondAttribute="bottom" id="MRc-j6-fYK"/>
                 <constraint firstItem="2gP-WF-b9M" firstAttribute="trailing" secondItem="T1x-SZ-7Wp" secondAttribute="trailing" id="Ma0-wK-tCX"/>
                 <constraint firstItem="W9z-M8-nqP" firstAttribute="leading" secondItem="JbA-WC-Qzu" secondAttribute="leading" id="Ml0-8k-EYK"/>
                 <constraint firstItem="6kS-s6-Fea" firstAttribute="width" secondItem="IXN-DH-cDC" secondAttribute="width" id="NSB-ID-hZl"/>
                 <constraint firstItem="mDH-rq-gMG" firstAttribute="trailing" secondItem="KSo-nf-8in" secondAttribute="trailing" id="NTq-dV-bbN"/>
-                <constraint firstItem="94d-CY-nvE" firstAttribute="height" secondItem="iIG-g5-bL7" secondAttribute="height" id="NwJ-gy-h4j"/>
                 <constraint firstItem="6kS-s6-Fea" firstAttribute="height" secondItem="IXN-DH-cDC" secondAttribute="height" id="OCs-si-6NU"/>
                 <constraint firstItem="W9z-M8-nqP" firstAttribute="bottom" secondItem="usv-JY-QTM" secondAttribute="bottom" id="Pxx-LU-KEG"/>
                 <constraint firstItem="hvd-M4-qHo" firstAttribute="height" secondItem="T1x-SZ-7Wp" secondAttribute="height" id="Q36-CO-h4H"/>
@@ -509,9 +554,7 @@
                 <constraint firstItem="2Nf-v4-21D" firstAttribute="top" secondItem="hFQ-pq-jSh" secondAttribute="top" id="QOg-No-Y35"/>
                 <constraint firstItem="uOM-eu-V5d" firstAttribute="bottom" secondItem="iIG-g5-bL7" secondAttribute="bottom" id="Qdj-hU-c4k"/>
                 <constraint firstItem="0W3-KV-yRw" firstAttribute="height" secondItem="6kS-s6-Fea" secondAttribute="height" id="Qmh-pw-yBC"/>
-                <constraint firstItem="eKI-Yk-5pg" firstAttribute="width" secondItem="hvd-M4-qHo" secondAttribute="width" id="R1v-Eh-pwK"/>
                 <constraint firstItem="l2d-hE-BJc" firstAttribute="leading" secondItem="hEc-Of-BWX" secondAttribute="leading" id="Rgd-Jn-VzN"/>
-                <constraint firstItem="uOM-eu-V5d" firstAttribute="width" secondItem="oJ7-bl-9pg" secondAttribute="width" id="S45-z9-Syn"/>
                 <constraint firstItem="oJ7-bl-9pg" firstAttribute="bottom" secondItem="94d-CY-nvE" secondAttribute="bottom" id="ScE-p4-jE6"/>
                 <constraint firstItem="QKN-Fp-4Af" firstAttribute="bottom" secondItem="uOM-eu-V5d" secondAttribute="bottom" id="SqA-50-rB4"/>
                 <constraint firstItem="6hR-bV-Lbn" firstAttribute="leading" secondItem="E7D-8t-gTW" secondAttribute="leading" id="SyZ-V3-Zla"/>
@@ -522,33 +565,28 @@
                 <constraint firstItem="iIG-g5-bL7" firstAttribute="leading" secondItem="2gP-WF-b9M" secondAttribute="leading" id="UQG-q1-IAM"/>
                 <constraint firstItem="0ka-vd-Eof" firstAttribute="bottom" secondItem="usv-JY-QTM" secondAttribute="bottom" id="VAn-Wb-a6e"/>
                 <constraint firstItem="0W3-KV-yRw" firstAttribute="leading" secondItem="IXN-DH-cDC" secondAttribute="leading" id="WFY-dx-W9z"/>
-                <constraint firstItem="ot9-rV-AAK" firstAttribute="height" secondItem="1UZ-bt-OoU" secondAttribute="height" id="WJp-B1-5NF"/>
-                <constraint firstItem="1UZ-bt-OoU" firstAttribute="trailing" secondItem="uOM-eu-V5d" secondAttribute="trailing" id="X8F-Ii-4Uj"/>
                 <constraint firstItem="W9z-M8-nqP" firstAttribute="width" secondItem="hvd-M4-qHo" secondAttribute="width" id="XOH-xg-GUG"/>
-                <constraint firstItem="E7D-8t-gTW" firstAttribute="width" secondItem="6hR-bV-Lbn" secondAttribute="width" id="XUL-eH-NjK"/>
                 <constraint firstItem="RP9-yM-Afd" firstAttribute="bottom" secondItem="5l9-te-B6u" secondAttribute="bottom" id="Y5Y-NM-q7L"/>
                 <constraint firstAttribute="bottom" secondItem="6kS-s6-Fea" secondAttribute="bottom" constant="6" id="YaL-2e-fwM"/>
                 <constraint firstItem="hEc-Of-BWX" firstAttribute="top" secondItem="KSo-nf-8in" secondAttribute="top" id="Ydo-4i-hUb"/>
                 <constraint firstItem="6kS-s6-Fea" firstAttribute="height" secondItem="5l9-te-B6u" secondAttribute="height" id="YhP-We-3zS"/>
                 <constraint firstItem="ot9-rV-AAK" firstAttribute="leading" secondItem="1UZ-bt-OoU" secondAttribute="leading" id="YtS-VJ-rrJ"/>
-                <constraint firstItem="iIG-g5-bL7" firstAttribute="width" secondItem="2gP-WF-b9M" secondAttribute="width" id="ZHm-zc-LKv"/>
                 <constraint firstItem="RP9-yM-Afd" firstAttribute="bottom" secondItem="l2d-hE-BJc" secondAttribute="bottom" id="Zbg-LG-pZ1"/>
                 <constraint firstItem="usv-JY-QTM" firstAttribute="trailing" secondItem="l2d-hE-BJc" secondAttribute="trailing" id="aAG-Ku-chq"/>
                 <constraint firstItem="0W3-KV-yRw" firstAttribute="bottom" secondItem="JVf-CT-bhz" secondAttribute="bottom" id="aKD-eI-Vq5"/>
-                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="2Nf-v4-21D" secondAttribute="trailing" constant="4" id="aRl-L3-Nyf"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="2Nf-v4-21D" secondAttribute="trailing" constant="6" id="aRl-L3-Nyf"/>
                 <constraint firstItem="94d-CY-nvE" firstAttribute="trailing" secondItem="iIG-g5-bL7" secondAttribute="trailing" id="aYS-g8-ot1"/>
                 <constraint firstItem="0W3-KV-yRw" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="6" id="b4k-1P-ERD"/>
+                <constraint firstItem="1UZ-bt-OoU" firstAttribute="trailing" secondItem="ot9-rV-AAK" secondAttribute="trailing" id="cEX-p0-deN"/>
                 <constraint firstItem="1UZ-bt-OoU" firstAttribute="width" secondItem="T1x-SZ-7Wp" secondAttribute="width" id="cOo-zu-k2X"/>
                 <constraint firstItem="RP9-yM-Afd" firstAttribute="top" secondItem="l2d-hE-BJc" secondAttribute="top" id="czS-4c-Vy5"/>
                 <constraint firstItem="IXN-DH-cDC" firstAttribute="top" secondItem="0W3-KV-yRw" secondAttribute="bottom" constant="4" id="dRB-Zp-zBg"/>
                 <constraint firstItem="oJ7-bl-9pg" firstAttribute="leading" secondItem="uOM-eu-V5d" secondAttribute="leading" id="dhD-L2-fNs"/>
-                <constraint firstItem="eKI-Yk-5pg" firstAttribute="height" secondItem="hvd-M4-qHo" secondAttribute="height" id="dnf-pa-9I6"/>
                 <constraint firstItem="E7D-8t-gTW" firstAttribute="top" secondItem="KSo-nf-8in" secondAttribute="top" id="dqa-Vy-tzQ"/>
                 <constraint firstItem="6kS-s6-Fea" firstAttribute="height" secondItem="usv-JY-QTM" secondAttribute="height" id="dtc-BY-A01"/>
                 <constraint firstItem="hvd-M4-qHo" firstAttribute="leading" secondItem="W9z-M8-nqP" secondAttribute="trailing" constant="4" id="e2J-ZR-yqB"/>
                 <constraint firstItem="ot9-rV-AAK" firstAttribute="bottom" secondItem="2gP-WF-b9M" secondAttribute="bottom" id="ecw-6e-iLe"/>
                 <constraint firstItem="hFQ-pq-jSh" firstAttribute="leading" secondItem="STP-DM-Sfl" secondAttribute="leading" id="fKc-nI-J9Q"/>
-                <constraint firstItem="2gP-WF-b9M" firstAttribute="height" secondItem="T1x-SZ-7Wp" secondAttribute="height" id="fTR-SW-P8X"/>
                 <constraint firstItem="0W3-KV-yRw" firstAttribute="trailing" secondItem="IXN-DH-cDC" secondAttribute="trailing" id="fbV-dk-Ymj"/>
                 <constraint firstItem="KSo-nf-8in" firstAttribute="bottom" secondItem="hEc-Of-BWX" secondAttribute="bottom" id="g4b-UB-CTY"/>
                 <constraint firstItem="STP-DM-Sfl" firstAttribute="bottom" secondItem="1UZ-bt-OoU" secondAttribute="bottom" id="g6W-6R-mhg"/>
@@ -574,7 +612,6 @@
                 <constraint firstItem="1UZ-bt-OoU" firstAttribute="leading" secondItem="T1x-SZ-7Wp" secondAttribute="trailing" constant="4" id="mUW-Xz-Fmk"/>
                 <constraint firstItem="5l9-te-B6u" firstAttribute="trailing" secondItem="IXN-DH-cDC" secondAttribute="trailing" id="nCe-Aa-ZJd"/>
                 <constraint firstItem="1UZ-bt-OoU" firstAttribute="top" secondItem="T1x-SZ-7Wp" secondAttribute="top" id="nN6-0V-BFG"/>
-                <constraint firstItem="BQx-Z3-w0v" firstAttribute="height" secondItem="QKN-Fp-4Af" secondAttribute="height" id="nPw-hc-ud1"/>
                 <constraint firstItem="JbA-WC-Qzu" firstAttribute="trailing" secondItem="KSo-nf-8in" secondAttribute="trailing" id="noe-Dc-qiw"/>
                 <constraint firstItem="mDH-rq-gMG" firstAttribute="leading" secondItem="KSo-nf-8in" secondAttribute="leading" id="oiw-wa-dQ3"/>
                 <constraint firstItem="RP9-yM-Afd" firstAttribute="leading" secondItem="0ka-vd-Eof" secondAttribute="leading" id="pae-wM-e6u"/>
@@ -584,7 +621,6 @@
                 <constraint firstItem="ot9-rV-AAK" firstAttribute="top" secondItem="2gP-WF-b9M" secondAttribute="top" id="qHd-lK-DHe"/>
                 <constraint firstItem="QKN-Fp-4Af" firstAttribute="top" secondItem="uOM-eu-V5d" secondAttribute="top" id="qfS-jr-m6Y"/>
                 <constraint firstItem="STP-DM-Sfl" firstAttribute="width" secondItem="1UZ-bt-OoU" secondAttribute="width" id="qxi-FU-oDD"/>
-                <constraint firstItem="hFQ-pq-jSh" firstAttribute="width" secondItem="STP-DM-Sfl" secondAttribute="width" id="rB4-zB-vpy"/>
                 <constraint firstItem="hFQ-pq-jSh" firstAttribute="trailing" secondItem="STP-DM-Sfl" secondAttribute="trailing" id="rL6-jN-9S7"/>
                 <constraint firstItem="hvd-M4-qHo" firstAttribute="width" secondItem="6kS-s6-Fea" secondAttribute="width" id="rzJ-sI-obd"/>
                 <constraint firstItem="STP-DM-Sfl" firstAttribute="leading" secondItem="1UZ-bt-OoU" secondAttribute="trailing" constant="4" id="s04-hx-P5d"/>
@@ -597,13 +633,13 @@
                 <constraint firstItem="94d-CY-nvE" firstAttribute="bottom" secondItem="6hR-bV-Lbn" secondAttribute="bottom" id="ubc-C9-VlG"/>
                 <constraint firstItem="2Nf-v4-21D" firstAttribute="bottom" secondItem="STP-DM-Sfl" secondAttribute="bottom" id="ufw-Do-pWm"/>
                 <constraint firstItem="2gP-WF-b9M" firstAttribute="leading" secondItem="T1x-SZ-7Wp" secondAttribute="leading" id="v99-mG-dwt"/>
-                <constraint firstItem="E7D-8t-gTW" firstAttribute="width" secondItem="hvd-M4-qHo" secondAttribute="width" id="vAm-aO-jfr"/>
                 <constraint firstItem="mDH-rq-gMG" firstAttribute="bottom" secondItem="Kth-ZU-lYo" secondAttribute="bottom" id="vEA-OQ-6bi"/>
                 <constraint firstItem="6hR-bV-Lbn" firstAttribute="trailing" secondItem="E7D-8t-gTW" secondAttribute="trailing" id="vSF-Sx-JwR"/>
                 <constraint firstItem="mDH-rq-gMG" firstAttribute="top" secondItem="Kth-ZU-lYo" secondAttribute="top" id="vWC-RR-rgA"/>
                 <constraint firstItem="hvd-M4-qHo" firstAttribute="trailing" secondItem="eKI-Yk-5pg" secondAttribute="trailing" id="w6x-Jz-vQX"/>
                 <constraint firstItem="QKN-Fp-4Af" firstAttribute="leading" secondItem="hFQ-pq-jSh" secondAttribute="leading" id="wTV-3Z-XoU"/>
                 <constraint firstItem="W9z-M8-nqP" firstAttribute="bottom" secondItem="hvd-M4-qHo" secondAttribute="bottom" id="wmE-dQ-aqx"/>
+                <constraint firstItem="oJ7-bl-9pg" firstAttribute="trailing" secondItem="uOM-eu-V5d" secondAttribute="trailing" id="wzn-OT-jJz"/>
                 <constraint firstItem="0ka-vd-Eof" firstAttribute="width" secondItem="6kS-s6-Fea" secondAttribute="width" id="y4i-XG-rBy"/>
                 <constraint firstItem="eKI-Yk-5pg" firstAttribute="top" secondItem="JbA-WC-Qzu" secondAttribute="top" id="yZ7-jt-MQn"/>
                 <constraint firstItem="JVf-CT-bhz" firstAttribute="bottom" secondItem="Kth-ZU-lYo" secondAttribute="bottom" id="zF7-O6-ILd"/>
@@ -629,6 +665,21 @@
                 <outletCollection property="operators" destination="eKI-Yk-5pg" id="uE0-Rr-ea8"/>
                 <outletCollection property="operators" destination="E7D-8t-gTW" id="UT8-5V-Fu3"/>
                 <outletCollection property="relations" destination="W9z-M8-nqP" id="nWX-hC-YRn"/>
+                <outletCollection property="verticalSpacing" destination="dRB-Zp-zBg" id="Kd9-UF-YLi"/>
+                <outletCollection property="verticalSpacing" destination="pbm-2f-OHi" id="3dq-ro-ady"/>
+                <outletCollection property="horizontalSpacing" destination="ztR-DU-YG3" id="RdD-MJ-eOL"/>
+                <outletCollection property="horizontalSpacing" destination="gEy-2C-sr0" id="v3z-QS-u7z"/>
+                <outletCollection property="horizontalSpacing" destination="TW5-O0-Fme" id="LeR-jL-VJh"/>
+                <outletCollection property="horizontalSpacing" destination="e2J-ZR-yqB" id="fLs-x1-OKD"/>
+                <outletCollection property="horizontalSpacing" destination="F6M-m6-Tbg" id="Qo9-CY-t04"/>
+                <outletCollection property="horizontalSpacing" destination="s04-hx-P5d" id="iHQ-Lx-Udr"/>
+                <outletCollection property="horizontalSpacing" destination="mUW-Xz-Fmk" id="KTc-oG-qIT"/>
+                <outletCollection property="horizontalSpacing" destination="h7C-n1-2v1" id="MUp-Ni-8Wc"/>
+                <outletCollection property="verticalSpacing" destination="E51-oc-zjH" id="iOV-5Y-RdS"/>
+                <outletCollection property="xMargins" destination="b4k-1P-ERD" id="GuD-rg-Fxp"/>
+                <outletCollection property="xMargins" destination="aRl-L3-Nyf" id="xoQ-za-2LG"/>
+                <outletCollection property="yMargins" destination="pqk-N9-vs2" id="mIV-ZH-8ad"/>
+                <outletCollection property="yMargins" destination="YaL-2e-fwM" id="Pvk-oK-a9P"/>
             </connections>
             <point key="canvasLocation" x="123.2" y="-80.959520239880064"/>
         </view>
