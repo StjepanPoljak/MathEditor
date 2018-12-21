@@ -152,12 +152,19 @@
 }
 
 #pragma mark - Custom user interaction
+//
+//- (UIView *)inputView
+//{
+//    return self.keyboard;
+//}
+- (UIView *)inputView {
+    
+//    UIView *keyboard = self.keyboard;
+//    keyboard.allowsSelfSizing = true;
+//    keyboard.frame = CGRectMake(0, 0, 0, 400);
 
-- (UIView *)inputView
-{
     return self.keyboard;
 }
-
 /**
  UIResponder protocol override.
  Our view can become first responder to receive user text input.

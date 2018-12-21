@@ -37,7 +37,9 @@ static NSInteger const DEFAULT_KEYBOARD = 0;
         
         NSBundle* bundle = [self getMathKeyboardResourcesBundle];
         instance = [bundle loadNibNamed:@"MTMathKeyboardRootView" owner:nil options:nil][0];
-        
+        instance.autoresizingMask = UIViewAutoresizingNone;
+        instance.frame = CGRectMake(0, 0, UIScreen.mainScreen.bounds.size.width, UIScreen.mainScreen.bounds.size.height * 4/10);
+
     });
     
     return instance;
