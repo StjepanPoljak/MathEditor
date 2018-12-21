@@ -13,6 +13,7 @@
 #import "MTFontManager.h"
 #import "MTMathAtomFactory.h"
 
+
 @interface MTKeyboard ()
 
 @property BOOL isLowerCase;
@@ -57,6 +58,11 @@
     return fontName;
 }
 
+- (IBAction)switchButtonTapped:(UIButton *)sender {
+    [self.rootView switchTapped];
+}
+
+
 - (void)awakeFromNib
 {
     [super awakeFromNib];
@@ -67,25 +73,28 @@
     }
 
     for (UIButton *number in self.numbers) {
-        [number setTitleColor:UIColor.clearColor forState:UIControlStateNormal];
+//        [number setTitleColor:UIColor.clearColor forState:UIControlStateNormal];
+        [number setTitle: number.currentTitle forState: UIControlStateReserved];
+        [number setTitle: nil forState: UIControlStateNormal];
     }
     
     for (UIButton *operator in self.operators) {
-        [operator setTitleColor:UIColor.clearColor forState:UIControlStateNormal];
+        [operator setTitle: operator.currentTitle forState: UIControlStateReserved];
+        [operator setTitle: nil forState: UIControlStateNormal];
     }
     
     self.isLowerCase = true;
 }
 
 
--(void) setBackgroundImages: (UIImage *)background {
+-(void) setBackgroundColors: (UIColor *)background {
     
     for (UIButton *number in self.numbers) {
-        [number setBackgroundImage: background forState: UIControlStateNormal];
+        [number setBackgroundColor: background];
     }
     
     for (UIButton *operator in self.operators) {
-        [operator setBackgroundImage: background forState: UIControlStateNormal];
+        [operator setBackgroundColor: background];
     }
     
 }
@@ -99,7 +108,7 @@
     [self playClickForCustomKeyTap];
     
     UIButton *button = sender;
-    NSString* str = button.currentTitle;
+    NSString* str = [button titleForState: UIControlStateReserved];
     [self.textView insertText:str];
 }
 

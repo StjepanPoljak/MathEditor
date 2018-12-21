@@ -20,12 +20,12 @@
                     <rect key="frame" x="93" y="186" width="83" height="56"/>
                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
-                    <state key="normal" title="2">
+                    <state key="normal" title="2" image="ic_basic_14">
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
-                    <state key="highlighted" backgroundImage="Keyboard-grey-pressed">
-                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="highlighted">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                     </state>
                     <connections>
                         <action selector="keyPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="oGX-Az-21S"/>
@@ -35,12 +35,12 @@
                     <rect key="frame" x="180" y="186" width="83" height="56"/>
                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
-                    <state key="normal" title="3">
+                    <state key="normal" title="3" image="ic_basic_15">
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
-                    <state key="highlighted" backgroundImage="Keyboard-grey-pressed">
-                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="highlighted">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                     </state>
                     <connections>
                         <action selector="keyPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="UzF-6t-Str"/>
@@ -50,12 +50,12 @@
                     <rect key="frame" x="93" y="126" width="83" height="56"/>
                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
-                    <state key="normal" title="5">
+                    <state key="normal" title="5" image="ic_basic_10">
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
-                    <state key="highlighted" backgroundImage="Keyboard-grey-pressed">
-                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="highlighted">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                     </state>
                     <connections>
                         <action selector="keyPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="xPA-kF-ElU"/>
@@ -65,12 +65,12 @@
                     <rect key="frame" x="93" y="66" width="83" height="56"/>
                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
-                    <state key="normal" title="8">
+                    <state key="normal" title="8" image="ic_basic_6">
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
-                    <state key="highlighted" backgroundImage="Keyboard-grey-pressed">
-                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="highlighted">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                     </state>
                     <connections>
                         <action selector="keyPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="Bqi-Yp-NER"/>
@@ -80,12 +80,12 @@
                     <rect key="frame" x="180" y="66" width="83" height="56"/>
                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
-                    <state key="normal" title="9">
+                    <state key="normal" title="9" image="ic_basic_7">
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
-                    <state key="highlighted" backgroundImage="Keyboard-grey-pressed">
-                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="highlighted">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                     </state>
                     <connections>
                         <action selector="keyPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="cYr-CJ-ANI"/>
@@ -95,12 +95,12 @@
                     <rect key="frame" x="93" y="246" width="83" height="56"/>
                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
-                    <state key="normal" title="0">
+                    <state key="normal" title="0" image="ic_basic_18">
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
-                    <state key="highlighted" backgroundImage="Keyboard-grey-pressed">
-                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="highlighted">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                     </state>
                     <connections>
                         <action selector="keyPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="4Ss-n5-vLX"/>
@@ -110,12 +110,12 @@
                     <rect key="frame" x="267" y="126" width="83" height="56"/>
                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
-                    <state key="normal" title="-">
+                    <state key="normal" title="-" image="ic_basic_12">
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
-                    <state key="highlighted" backgroundImage="Keyboard-orange-pressed">
-                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="highlighted">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                     </state>
                     <connections>
                         <action selector="keyPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="3C0-Va-dNY"/>
@@ -125,12 +125,12 @@
                     <rect key="frame" x="267" y="66" width="83" height="56"/>
                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
-                    <state key="normal" title="×">
+                    <state key="normal" title="×" image="ic_basic_8">
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
-                    <state key="highlighted" backgroundImage="Keyboard-orange-pressed">
-                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="highlighted">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                     </state>
                     <connections>
                         <action selector="keyPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="ScY-hK-6jZ"/>
@@ -140,15 +140,15 @@
                     <rect key="frame" x="180" y="246" width="83" height="56"/>
                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="25"/>
-                    <state key="normal" title="=">
+                    <state key="normal" title="=" image="ic_basic_19">
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
                     <state key="disabled" backgroundImage="num-button-disabled">
                         <color key="titleColor" red="0.66666668650000005" green="0.66666668650000005" blue="0.66666668650000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
-                    <state key="highlighted" backgroundImage="Keyboard-grey-pressed">
-                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="highlighted">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                     </state>
                     <connections>
                         <action selector="keyPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="dh1-8a-wfY"/>
@@ -158,12 +158,12 @@
                     <rect key="frame" x="6" y="126" width="83" height="56"/>
                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
-                    <state key="normal" title="4">
+                    <state key="normal" title="4" image="ic_basic_9">
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
-                    <state key="highlighted" backgroundImage="Keyboard-marine-pressed">
-                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="highlighted">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                     </state>
                     <connections>
                         <action selector="keyPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="uG2-gp-qAv"/>
@@ -172,12 +172,12 @@
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6kS-s6-Fea" userLabel="ExponentButton">
                     <rect key="frame" x="6" y="246" width="83" height="56"/>
                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="18"/>
-                    <state key="normal" title=".">
+                    <state key="normal" title="." image="ic_basic_17">
                         <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
-                    <state key="selected" backgroundImage="blue-button-highlighted"/>
-                    <state key="highlighted" backgroundImage="Keyboard-marine-pressed"/>
+                    <state key="highlighted">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
                     <connections>
                         <action selector="keyPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="yXu-Gs-5fO"/>
                     </connections>
@@ -186,10 +186,12 @@
                     <rect key="frame" x="6" y="186" width="83" height="56"/>
                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="18"/>
-                    <state key="normal" title="1">
+                    <state key="normal" title="1" image="ic_basic_13">
                         <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
-                    <state key="highlighted" backgroundImage="Keyboard-marine-pressed"/>
+                    <state key="highlighted">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
                     <connections>
                         <action selector="keyPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="JZl-ms-Ia0"/>
                     </connections>
@@ -198,12 +200,12 @@
                     <rect key="frame" x="267" y="246" width="83" height="56"/>
                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
-                    <state key="normal" title="ENTER">
+                    <state key="normal" image="ic_basic_20">
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
-                    <state key="highlighted" backgroundImage="Keyboard-orange-pressed">
-                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="highlighted">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                     </state>
                     <connections>
                         <action selector="enterPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="Q4b-YK-Fwg"/>
@@ -213,12 +215,12 @@
                     <rect key="frame" x="6" y="66" width="83" height="56"/>
                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
-                    <state key="normal" title="7">
+                    <state key="normal" title="7" image="ic_basic_5">
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
-                    <state key="highlighted" backgroundImage="Keyboard-marine-pressed">
-                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="highlighted">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                     </state>
                     <connections>
                         <action selector="keyPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="Vcj-AN-akk"/>
@@ -228,12 +230,12 @@
                     <rect key="frame" x="180" y="126" width="83" height="56"/>
                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
-                    <state key="normal" title="6">
+                    <state key="normal" title="6" image="ic_basic_11">
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
-                    <state key="highlighted" backgroundImage="Keyboard-grey-pressed">
-                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="highlighted">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                     </state>
                     <connections>
                         <action selector="keyPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="Ory-Zg-N39"/>
@@ -243,12 +245,12 @@
                     <rect key="frame" x="267" y="186" width="83" height="56"/>
                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
-                    <state key="normal" title="+">
+                    <state key="normal" title="+" image="ic_basic_16">
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
-                    <state key="highlighted" backgroundImage="Keyboard-orange-pressed">
-                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="highlighted">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                     </state>
                     <connections>
                         <action selector="keyPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="w9v-7K-Y5f"/>
@@ -258,12 +260,12 @@
                     <rect key="frame" x="93" y="6" width="83" height="56"/>
                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
-                    <state key="normal" title="( )">
+                    <state key="normal" title="( )" image="ic_basic_1">
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
-                    <state key="highlighted" backgroundImage="Keyboard-grey-pressed">
-                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="highlighted">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                     </state>
                     <connections>
                         <action selector="parensPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="4QX-54-r3O"/>
@@ -273,12 +275,12 @@
                     <rect key="frame" x="180" y="6" width="83" height="56"/>
                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
-                    <state key="normal" title="9">
+                    <state key="normal" image="ic_basic_2">
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
-                    <state key="highlighted" backgroundImage="Keyboard-grey-pressed">
-                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="highlighted">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                     </state>
                     <connections>
                         <action selector="backspacePressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="l08-uc-Nfc"/>
@@ -288,12 +290,12 @@
                     <rect key="frame" x="267" y="6" width="83" height="56"/>
                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
-                    <state key="normal" title="÷">
+                    <state key="normal" title="÷" image="ic_basic_3">
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
-                    <state key="highlighted" backgroundImage="Keyboard-orange-pressed">
-                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="highlighted">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                     </state>
                     <connections>
                         <action selector="fractionPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="xGY-j5-CGo"/>
@@ -303,13 +305,16 @@
                     <rect key="frame" x="6" y="6" width="83" height="56"/>
                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
-                    <state key="normal" title="...">
+                    <state key="normal" image="ic_basic_0">
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
-                    <state key="highlighted" backgroundImage="Keyboard-marine-pressed">
-                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="highlighted">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                     </state>
+                    <connections>
+                        <action selector="switchButtonTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="Vil-on-fEJ"/>
+                    </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -406,6 +411,7 @@
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <connections>
+                <outlet property="switchButton" destination="8QD-g8-H1s" id="wka-lt-igH"/>
                 <outletCollection property="numbers" destination="Kth-ZU-lYo" id="hVL-xR-raS"/>
                 <outletCollection property="numbers" destination="mDH-rq-gMG" id="8co-jv-27i"/>
                 <outletCollection property="numbers" destination="hEc-Of-BWX" id="saR-wj-KTC"/>
@@ -444,10 +450,26 @@
         </view>
     </objects>
     <resources>
-        <image name="Keyboard-grey-pressed" width="44" height="44"/>
-        <image name="Keyboard-marine-pressed" width="44" height="44"/>
-        <image name="Keyboard-orange-pressed" width="44" height="44"/>
-        <image name="blue-button-highlighted" width="44" height="44"/>
+        <image name="ic_basic_0" width="45" height="32"/>
+        <image name="ic_basic_1" width="45" height="32"/>
+        <image name="ic_basic_10" width="45" height="32"/>
+        <image name="ic_basic_11" width="45" height="32"/>
+        <image name="ic_basic_12" width="45" height="32"/>
+        <image name="ic_basic_13" width="45" height="32"/>
+        <image name="ic_basic_14" width="45" height="32"/>
+        <image name="ic_basic_15" width="45" height="32"/>
+        <image name="ic_basic_16" width="45" height="32"/>
+        <image name="ic_basic_17" width="45" height="32"/>
+        <image name="ic_basic_18" width="45" height="32"/>
+        <image name="ic_basic_19" width="45" height="32"/>
+        <image name="ic_basic_2" width="45" height="32"/>
+        <image name="ic_basic_20" width="45" height="32"/>
+        <image name="ic_basic_3" width="45" height="32"/>
+        <image name="ic_basic_5" width="45" height="32"/>
+        <image name="ic_basic_6" width="45" height="32"/>
+        <image name="ic_basic_7" width="45" height="32"/>
+        <image name="ic_basic_8" width="45" height="32"/>
+        <image name="ic_basic_9" width="45" height="32"/>
         <image name="num-button-disabled" width="44" height="44"/>
     </resources>
 </document>

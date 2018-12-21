@@ -11,8 +11,13 @@
 #import <UIKit/UIKit.h>
 #import "MTEditableMathLabel.h"
 
+@protocol MTKeyboardDelegate
+-(void)switchTapped;
+@end
+
 @interface MTKeyboard : UIView <UIInputViewAudioFeedback>
 
+@property (weak, nonatomic) UIView<MTKeyboardDelegate>* rootView;
 
 @property (weak, nonatomic) IBOutlet UIButton *fractionButton;
 @property (nonatomic, weak) IBOutlet UIButton *multiplyButton;
@@ -33,6 +38,9 @@
 @property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *letters;
 
 @property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *greekLetters;
+
+@property (weak, nonatomic) IBOutlet UIButton *switchButton;
+
 
 @property (weak, nonatomic) IBOutlet UIButton *alphaRho;
 @property (weak, nonatomic) IBOutlet UIButton *deltaOmega;
@@ -70,6 +78,6 @@
 - (void) setSquareRootState:(BOOL) highlighted;
 - (void) setRadicalState:(BOOL) highlighted;
 
--(void) setBackgroundImages: (UIImage *)background;
+-(void) setBackgroundColors: (UIColor *)background;
 
 @end

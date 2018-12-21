@@ -58,12 +58,13 @@ static NSInteger const DEFAULT_KEYBOARD = 0;
     NSBundle* bundle = [MTMathKeyboardRootView getMathKeyboardResourcesBundle];
     
     _tab1Keyboard = (MTKeyboard *)[[UINib nibWithNibName:@"CustomKeyboardView" bundle:bundle] instantiateWithOwner:self options:nil][0];
-//    _tab2Keyboard = (MTKeyboard *)[[UINib nibWithNibName:@"MTKeyboardTab2" bundle:bundle] instantiateWithOwner:self options:nil][0];
+    _tab2Keyboard = (MTKeyboard *)[[UINib nibWithNibName:@"CustomKeyboardViewAdvanced" bundle:bundle] instantiateWithOwner:self options:nil][0];
 //    _tab3Keyboard = (MTKeyboard *)[[UINib nibWithNibName:@"MTKeyboardTab3" bundle:bundle] instantiateWithOwner:self options:nil][0];
 //    _tab4Keyboard = (MTKeyboard *)[[UINib nibWithNibName:@"MTKeyboardTab4" bundle:bundle] instantiateWithOwner:self options:nil][0];
-
+    _tab1Keyboard.rootView = self;
+    _tab2Keyboard.rootView = self;
     // TODO Use keyboard array for operations involving all tabs
-    _keyboards = @[_tab1Keyboard];
+    _keyboards = @[_tab1Keyboard, _tab2Keyboard];
     _currentTab = -1;
 
     for (MTKeyboard *keyboard in _keyboards) {
@@ -90,6 +91,14 @@ static NSInteger const DEFAULT_KEYBOARD = 0;
     [_operationsTab setSelected:false];
     [_functionsTab setSelected:false];
     [_lettersTab setSelected:false];
+}
+
+-(void)switchTapped {
+
+    [self switchKeyboard:1];
+    
+//    [_currentKeyboard removeFromSuperview];
+//    [_contentView addSubview:_tab2Keyboard];
 }
 
 -(void)switchKeyboard:(NSInteger)tabNumber
@@ -264,10 +273,10 @@ static NSInteger const DEFAULT_KEYBOARD = 0;
     }
 }
 
--(void) setBackgroundImages: (UIImage *)background {
+-(void) setBackgroundColors: (UIColor *)background {
     
     for (MTKeyboard *keyboard in _keyboards) {
-        [keyboard setBackgroundImages:background];
+        [keyboard setBackgroundColors:background];
     }
 }
 

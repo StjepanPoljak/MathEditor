@@ -14,7 +14,7 @@
 #import "MTKeyboard.h"
 #import "MTEditableMathLabel.h"
 
-@interface MTMathKeyboardRootView : UIView<MTMathKeyboard>
+@interface MTMathKeyboardRootView : UIView<MTMathKeyboard, MTKeyboardDelegate>
 
 - (IBAction)switchTabs:(UIButton *)sender;
 @property (weak, nonatomic) IBOutlet UIView *contentView;
@@ -44,6 +44,6 @@
 @property (nonatomic) BOOL squareRootHighlighted;
 @property (nonatomic) BOOL radicalHighlighted;
 
--(void) setBackgroundImages: (UIImage *)background;
+-(void) setBackgroundColors: (UIColor *)background;
 
 @end
