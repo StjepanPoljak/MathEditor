@@ -280,6 +280,9 @@
                     <state key="highlighted" backgroundImage="Keyboard-grey-pressed">
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
+                    <connections>
+                        <action selector="backspacePressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="l08-uc-Nfc"/>
+                    </connections>
                 </button>
                 <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lsa-Uz-jo5">
                     <rect key="frame" x="267" y="6" width="83" height="56"/>
@@ -410,7 +413,6 @@
                 <outletCollection property="numbers" destination="l2d-hE-BJc" id="tze-Yq-Rds"/>
                 <outletCollection property="numbers" destination="JbA-WC-Qzu" id="KIm-kz-oNM"/>
                 <outletCollection property="numbers" destination="usv-JY-QTM" id="4AT-CL-ZCo"/>
-                <outletCollection property="operators" destination="hvd-M4-qHo" id="LUl-6z-gqJ"/>
                 <outletCollection property="operators" destination="eKI-Yk-5pg" id="uE0-Rr-ea8"/>
                 <outletCollection property="operators" destination="E7D-8t-gTW" id="UT8-5V-Fu3"/>
                 <outletCollection property="relations" destination="W9z-M8-nqP" id="nWX-hC-YRn"/>
@@ -431,6 +433,12 @@
                 <outletCollection property="verticalSpacing" destination="NdR-YA-6C4" id="Ujk-tL-aQF"/>
                 <outletCollection property="horizontalSpacing" destination="vQC-Tk-JJV" id="KEu-gb-kzX"/>
                 <outletCollection property="horizontalSpacing" destination="TW5-O0-Fme" id="FMm-ct-pvU"/>
+                <outletCollection property="operators" destination="6hR-bV-Lbn" id="z4u-Kb-RPc"/>
+                <outletCollection property="operators" destination="lsa-Uz-jo5" id="Pn0-rI-GSc"/>
+                <outletCollection property="numbers" destination="0W3-KV-yRw" id="E6n-nF-2Z1"/>
+                <outletCollection property="numbers" destination="IXN-DH-cDC" id="oif-N0-VVl"/>
+                <outletCollection property="numbers" destination="5l9-te-B6u" id="XWH-Tq-k0n"/>
+                <outletCollection property="numbers" destination="6kS-s6-Fea" id="cQt-Pd-FKB"/>
             </connections>
             <point key="canvasLocation" x="123.2" y="-135.832083958021"/>
         </view>

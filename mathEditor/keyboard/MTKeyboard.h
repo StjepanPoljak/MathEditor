@@ -70,4 +70,6 @@
 - (void) setSquareRootState:(BOOL) highlighted;
 - (void) setRadicalState:(BOOL) highlighted;
 
+-(void) setBackgroundImages: (UIImage *)background;
+
 @end

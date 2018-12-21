@@ -66,9 +66,33 @@
         varButton.titleLabel.font = [UIFont fontWithName:fontName size:varButton.titleLabel.font.pointSize];
     }
 
+    for (UIButton *number in self.numbers) {
+        [number setTitleColor:UIColor.clearColor forState:UIControlStateNormal];
+    }
+    
+    for (UIButton *operator in self.operators) {
+        [operator setTitleColor:UIColor.clearColor forState:UIControlStateNormal];
+    }
+    
     self.isLowerCase = true;
 }
 
+
+-(void) setBackgroundImages: (UIImage *)background {
+    
+    for (UIButton *number in self.numbers) {
+        [number setBackgroundImage: background forState: UIControlStateNormal];
+    }
+    
+    for (UIButton *operator in self.operators) {
+        [operator setBackgroundImage: background forState: UIControlStateNormal];
+    }
+    
+}
+
+- (void)layoutSubviews{
+    [super layoutSubviews];
+}
 
 - (void)keyPressed:(id)sender
 {
