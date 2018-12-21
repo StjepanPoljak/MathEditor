@@ -44,4 +44,6 @@
 @property (nonatomic) BOOL squareRootHighlighted;
 @property (nonatomic) BOOL radicalHighlighted;
 
+-(void) setBackgroundImages: (UIImage *)background;
+
 @end

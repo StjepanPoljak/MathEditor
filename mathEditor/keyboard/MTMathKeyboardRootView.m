@@ -264,4 +264,11 @@ static NSInteger const DEFAULT_KEYBOARD = 0;
     }
 }
 
+-(void) setBackgroundImages: (UIImage *)background {
+    
+    for (MTKeyboard *keyboard in _keyboards) {
+        [keyboard setBackgroundImages:background];
+    }
+}
+
 @end
