@@ -44,6 +44,9 @@
 @property (nonatomic) BOOL squareRootHighlighted;
 @property (nonatomic) BOOL radicalHighlighted;
 
--(void) setBackgroundColors: (UIColor *)background;
+- (void) setBackgroundColors: (UIColor *)background;
+- (void) setBorderColors: (UIColor *)border;
+- (void) setSpecialBackgroundColors: (UIColor *)background;
+- (void) setEnterBackgroundColor: (UIColor *)background;
 
 @end

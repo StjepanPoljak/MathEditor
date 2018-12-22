@@ -411,6 +411,7 @@
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <connections>
+                <outlet property="enterButton" destination="hvd-M4-qHo" id="joN-m8-QqY"/>
                 <outlet property="switchButton" destination="8QD-g8-H1s" id="wka-lt-igH"/>
                 <outletCollection property="numbers" destination="Kth-ZU-lYo" id="hVL-xR-raS"/>
                 <outletCollection property="numbers" destination="mDH-rq-gMG" id="8co-jv-27i"/>
@@ -445,6 +446,8 @@
                 <outletCollection property="numbers" destination="IXN-DH-cDC" id="oif-N0-VVl"/>
                 <outletCollection property="numbers" destination="5l9-te-B6u" id="XWH-Tq-k0n"/>
                 <outletCollection property="numbers" destination="6kS-s6-Fea" id="cQt-Pd-FKB"/>
+                <outletCollection property="other" destination="QFK-nd-FDK" id="pPm-Ke-QSX"/>
+                <outletCollection property="other" destination="pQ0-IU-JRu" id="BIE-M8-g77"/>
             </connections>
             <point key="canvasLocation" x="123.2" y="-135.832083958021"/>
         </view>

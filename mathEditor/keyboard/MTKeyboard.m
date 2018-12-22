@@ -73,7 +73,6 @@
     }
 
     for (UIButton *number in self.numbers) {
-//        [number setTitleColor:UIColor.clearColor forState:UIControlStateNormal];
         [number setTitle: number.currentTitle forState: UIControlStateReserved];
         [number setTitle: nil forState: UIControlStateNormal];
     }
@@ -81,6 +80,16 @@
     for (UIButton *operator in self.operators) {
         [operator setTitle: operator.currentTitle forState: UIControlStateReserved];
         [operator setTitle: nil forState: UIControlStateNormal];
+    }
+    
+    for (UIButton *relation in self.relations) {
+        [relation setTitle: relation.currentTitle forState: UIControlStateReserved];
+        [relation setTitle: nil forState: UIControlStateNormal];
+    }
+    
+    for (UIButton *each in self.other) {
+        [each setTitle: each.currentTitle forState: UIControlStateReserved];
+        [each setTitle: nil forState: UIControlStateNormal];
     }
     
     self.isLowerCase = true;
@@ -93,10 +102,51 @@
         [number setBackgroundColor: background];
     }
     
+}
+
+CGFloat borderWidth = 0.25;
+
+- (void) setBorderColors: (UIColor *)border {
     for (UIButton *operator in self.operators) {
-        [operator setBackgroundColor: background];
+        [operator.layer setBorderColor:border.CGColor];
+        [operator.layer setBorderWidth:borderWidth];
+    }
+    for (UIButton *number in self.numbers) {
+        [number.layer setBorderColor:border.CGColor];
+        [number.layer setBorderWidth:borderWidth];
+    }
+    for (UIButton *var in self.variables) {
+        [var.layer setBorderColor:border.CGColor];
+        [var.layer setBorderWidth:borderWidth];
+    }
+    for (UIButton *relation in self.relations) {
+        [relation.layer setBorderColor:border.CGColor];
+        [relation.layer setBorderWidth:borderWidth];
     }
     
+    for (UIButton *each in self.other) {
+        [each.layer setBorderColor:border.CGColor];
+        [each.layer setBorderWidth:borderWidth];
+    }
+    [_switchButton.layer setBorderColor:border.CGColor];
+    [_switchButton.layer setBorderWidth:borderWidth];
+    [_enterButton.layer setBorderColor:border.CGColor];
+    [_enterButton.layer setBorderWidth:borderWidth];
+}
+
+- (void) setSpecialBackgroundColors: (UIColor *)background {
+    if (self.rootView.isAdvanced) {
+        [_switchButton setBackgroundColor:background];
+    }
+    else {
+        for (UIButton *operator in self.operators) {
+            [operator setBackgroundColor: background];
+        }
+    }
+}
+
+-(void) setEnterBackgroundColor: (UIColor *)background {
+    [self.enterButton setBackgroundColor:background];
 }
 
 - (void)layoutSubviews{
@@ -305,4 +355,5 @@
 {
     
 }
+
 @end

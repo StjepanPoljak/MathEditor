@@ -20,6 +20,7 @@
 
 #import "MTUnicode.h"
 #import "MTMathListBuilder.h"
+#import "MTMathKeyboardRootView.h"
 
 @interface MTEditableMathLabel() <UIGestureRecognizerDelegate, UITextInput>
 
@@ -152,16 +153,8 @@
 }
 
 #pragma mark - Custom user interaction
-//
-//- (UIView *)inputView
-//{
-//    return self.keyboard;
-//}
+
 - (UIView *)inputView {
-    
-//    UIView *keyboard = self.keyboard;
-//    keyboard.allowsSelfSizing = true;
-//    keyboard.frame = CGRectMake(0, 0, 0, 400);
 
     return self.keyboard;
 }
@@ -1031,6 +1024,30 @@ static const unichar kMTUnicodeGreekCapitalEnd = 0x03A9;
 - (UITextRange *)textRangeFromPosition:(UITextPosition *)fromPosition toPosition:(UITextPosition *)toPosition
 {
     return nil;
+}
+
+- (void) setKeyboardBorderColors: (UIColor *)border {
+    [((MTMathKeyboardRootView *)self.keyboard) setBorderColors:border];
+}
+
+- (void) setKeyboardSpecialBackgroundColors: (UIColor *)background {
+    [((MTMathKeyboardRootView *)self.keyboard) setSpecialBackgroundColors:background];
+}
+
+- (void) setKeyboardBackgroundColors: (UIColor *)background {
+    [((MTMathKeyboardRootView *)self.keyboard) setBackgroundColors:background];
+}
+
+- (void) setKeyboardPadding: (CGFloat)x y:(CGFloat)y {
+    [((MTMathKeyboardRootView *)self.keyboard) setPadding:x y:y];
+}
+
+- (void) setKeyboardMargins: (CGFloat)x y:(CGFloat)y {
+    [((MTMathKeyboardRootView *)self.keyboard) setMargins:x y:y];
+}
+
+- (void) setKeyboardEnterBackgroundColor: (UIColor *)background {
+    [((MTMathKeyboardRootView *)self.keyboard) setEnterBackgroundColor:background];
 }
 
 @end

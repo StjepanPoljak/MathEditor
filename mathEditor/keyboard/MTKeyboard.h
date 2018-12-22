@@ -13,6 +13,7 @@
 
 @protocol MTKeyboardDelegate
 -(void)switchTapped;
+-(BOOL)isAdvanced;
 @end
 
 @interface MTKeyboard : UIView <UIInputViewAudioFeedback>
@@ -29,6 +30,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *shiftButton;
 @property (weak, nonatomic) IBOutlet UIButton *squareRootButton;
 @property (weak, nonatomic) IBOutlet UIButton *radicalButton;
+@property (weak, nonatomic) IBOutlet UIButton *enterButton;
 
 @property (nonatomic, weak) UIView<UIKeyInput>* textView;
 @property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *numbers;
@@ -36,6 +38,8 @@
 @property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *operators;
 @property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *relations;
 @property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *letters;
+@property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *largeOperators;
+@property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *other;
 
 @property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *greekLetters;
 
@@ -78,6 +82,9 @@
 - (void) setSquareRootState:(BOOL) highlighted;
 - (void) setRadicalState:(BOOL) highlighted;
 
--(void) setBackgroundColors: (UIColor *)background;
+- (void) setBackgroundColors: (UIColor *)background;
+- (void) setBorderColors: (UIColor *)border;
+- (void) setSpecialBackgroundColors: (UIColor *)background;
+- (void) setEnterBackgroundColor: (UIColor *)background;
 
 @end

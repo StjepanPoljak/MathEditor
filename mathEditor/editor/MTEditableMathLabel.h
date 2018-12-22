@@ -86,4 +86,11 @@
 
 - (CGSize) mathDisplaySize;
 
+- (void) setKeyboardBorderColors: (UIColor *)border;
+- (void) setKeyboardSpecialBackgroundColors: (UIColor *)background;
+- (void) setKeyboardBackgroundColors: (UIColor *)background;
+- (void) setKeyboardEnterBackgroundColor: (UIColor *)background;
+- (void) setKeyboardPadding: (CGFloat)x y:(CGFloat)y;
+- (void) setKeyboardMargins: (CGFloat)x y:(CGFloat)y;
+
 @end

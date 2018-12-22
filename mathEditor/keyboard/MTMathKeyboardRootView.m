@@ -280,4 +280,25 @@ static NSInteger const DEFAULT_KEYBOARD = 0;
     }
 }
 
+- (void) setBorderColors: (UIColor *)border {
+    for (MTKeyboard *keyboard in _keyboards) {
+        [keyboard setBorderColors:border];
+    }
+}
+- (void) setSpecialBackgroundColors: (UIColor *)background {
+    for (MTKeyboard *keyboard in _keyboards) {
+        [keyboard setSpecialBackgroundColors:background];
+    }
+}
+- (void) setEnterBackgroundColor: (UIColor *)background {
+    for (MTKeyboard *keyboard in _keyboards) {
+        [keyboard setEnterBackgroundColor:background];
+    }
+}
+
+-(BOOL)isAdvanced {
+    
+    return self.currentKeyboard == _tab2Keyboard;
+}
+
 @end
