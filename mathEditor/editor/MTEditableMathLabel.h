@@ -92,5 +92,5 @@
 - (void) setKeyboardEnterBackgroundColor: (UIColor *)background;
 - (void) setKeyboardPadding: (CGFloat)x y:(CGFloat)y;
 - (void) setKeyboardMargins: (CGFloat)x y:(CGFloat)y;
-
+- (void) resetIndex;
 @end

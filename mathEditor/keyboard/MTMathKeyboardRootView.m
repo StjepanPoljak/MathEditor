@@ -95,10 +95,12 @@ static NSInteger const DEFAULT_KEYBOARD = 0;
 
 -(void)switchTapped {
 
-    [self switchKeyboard:1];
-    
-//    [_currentKeyboard removeFromSuperview];
-//    [_contentView addSubview:_tab2Keyboard];
+    if (self.isAdvanced) {
+        [self switchKeyboard:0];
+    }
+    else {
+        [self switchKeyboard:1];
+    }
 }
 
 -(void)switchKeyboard:(NSInteger)tabNumber

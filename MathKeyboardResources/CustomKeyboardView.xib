@@ -412,7 +412,7 @@
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <connections>
                 <outlet property="enterButton" destination="hvd-M4-qHo" id="joN-m8-QqY"/>
-                <outlet property="switchButton" destination="8QD-g8-H1s" id="wka-lt-igH"/>
+                <outlet property="switchAdvancedButton" destination="8QD-g8-H1s" id="8lW-ao-M1v"/>
                 <outletCollection property="numbers" destination="Kth-ZU-lYo" id="hVL-xR-raS"/>
                 <outletCollection property="numbers" destination="mDH-rq-gMG" id="8co-jv-27i"/>
                 <outletCollection property="numbers" destination="hEc-Of-BWX" id="saR-wj-KTC"/>

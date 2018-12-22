@@ -14,6 +14,8 @@
 @protocol MTKeyboardDelegate
 -(void)switchTapped;
 -(BOOL)isAdvanced;
+-(void)radTapped;
+-(void)ansTapped;
 @end
 
 @interface MTKeyboard : UIView <UIInputViewAudioFeedback>
@@ -44,7 +46,7 @@
 @property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *greekLetters;
 
 @property (weak, nonatomic) IBOutlet UIButton *switchButton;
-
+@property (weak, nonatomic) IBOutlet UIButton *switchAdvancedButton;
 
 @property (weak, nonatomic) IBOutlet UIButton *alphaRho;
 @property (weak, nonatomic) IBOutlet UIButton *deltaOmega;

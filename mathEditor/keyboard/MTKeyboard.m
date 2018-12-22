@@ -13,6 +13,7 @@
 #import "MTFontManager.h"
 #import "MTMathAtomFactory.h"
 
+#import "MTEditableMathLabel.h"
 
 @interface MTKeyboard ()
 
@@ -62,16 +63,40 @@
     [self.rootView switchTapped];
 }
 
+- (IBAction)squareTapped:(UIButton *)sender {
+    [self playClickForCustomKeyTap];
+    [self.textView insertText:@"^"];
+    [self.textView insertText:@"2"];
+    [((MTEditableMathLabel *)self.textView) resetIndex];
+}
+
+- (IBAction)exponentialTapped:(UIButton *)sender {
+    [self playClickForCustomKeyTap];
+    [self.textView insertText:@"e"];
+    [self.textView insertText:@"^"];
+}
+
+- (IBAction)radTapped:(UIButton *)sender {
+}
+
+- (IBAction)ansTapped:(UIButton *)sender {
+}
+
 
 - (void)awakeFromNib
 {
     [super awakeFromNib];
     // Initialization code
-    NSString* fontName = [self registerAndGetFontName];
-    for (UIButton* varButton in self.variables) {
-        varButton.titleLabel.font = [UIFont fontWithName:fontName size:varButton.titleLabel.font.pointSize];
-    }
+//    NSString* fontName = [self registerAndGetFontName];
+//    for (UIButton* varButton in self.variables) {
+//        varButton.titleLabel.font = [UIFont fontWithName:fontName size:varButton.titleLabel.font.pointSize];
+//    }
 
+    for (UIButton *var in self.variables) {
+        [var setTitle: var.currentTitle forState: UIControlStateReserved];
+        [var setTitle: nil forState: UIControlStateNormal];
+    }
+    
     for (UIButton *number in self.numbers) {
         [number setTitle: number.currentTitle forState: UIControlStateReserved];
         [number setTitle: nil forState: UIControlStateNormal];
@@ -92,6 +117,11 @@
         [each setTitle: nil forState: UIControlStateNormal];
     }
     
+    for (UIButton *operator in self.largeOperators) {
+        [operator setTitle: operator.currentTitle forState: UIControlStateReserved];
+        [operator setTitle: nil forState: UIControlStateNormal];
+    }
+    
     self.isLowerCase = true;
 }
 
@@ -102,12 +132,36 @@
         [number setBackgroundColor: background];
     }
     
+    for (UIButton *operator in self.largeOperators) {
+        [operator setBackgroundColor: background];
+    }
+    
+    for (UIButton *each in self.other) {
+        [each setBackgroundColor: background];
+    }
+    
+    for (UIButton *relation in self.relations) {
+        [relation setBackgroundColor: background];
+    }
+    
+    for (UIButton *var in self.variables) {
+        [var setBackgroundColor: background];
+    }
+    
+    [_switchAdvancedButton setBackgroundColor: background];
+    [_squareRootButton setBackgroundColor:background];
+    [_radicalButton setBackgroundColor:background];
+
 }
 
 CGFloat borderWidth = 0.25;
 
 - (void) setBorderColors: (UIColor *)border {
     for (UIButton *operator in self.operators) {
+        [operator.layer setBorderColor:border.CGColor];
+        [operator.layer setBorderWidth:borderWidth];
+    }
+    for (UIButton *operator in self.largeOperators) {
         [operator.layer setBorderColor:border.CGColor];
         [operator.layer setBorderWidth:borderWidth];
     }
@@ -128,20 +182,24 @@ CGFloat borderWidth = 0.25;
         [each.layer setBorderColor:border.CGColor];
         [each.layer setBorderWidth:borderWidth];
     }
+    
     [_switchButton.layer setBorderColor:border.CGColor];
     [_switchButton.layer setBorderWidth:borderWidth];
+    [_switchAdvancedButton.layer setBorderColor:border.CGColor];
+    [_switchAdvancedButton.layer setBorderWidth:borderWidth];
     [_enterButton.layer setBorderColor:border.CGColor];
     [_enterButton.layer setBorderWidth:borderWidth];
+    [_squareRootButton.layer setBorderColor:border.CGColor];
+    [_squareRootButton.layer setBorderWidth:borderWidth];
+    [_radicalButton.layer setBorderColor:border.CGColor];
+    [_radicalButton.layer setBorderWidth:borderWidth];
 }
 
 - (void) setSpecialBackgroundColors: (UIColor *)background {
-    if (self.rootView.isAdvanced) {
-        [_switchButton setBackgroundColor:background];
-    }
-    else {
-        for (UIButton *operator in self.operators) {
-            [operator setBackgroundColor: background];
-        }
+
+    [_switchButton setBackgroundColor:background];
+    for (UIButton *operator in self.operators) {
+        [operator setBackgroundColor: background];
     }
 }
 

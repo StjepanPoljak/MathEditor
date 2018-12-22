@@ -36,6 +36,11 @@
     NSMutableArray* _indicesToHighlight;
 }
 
+- (void)resetIndex{
+    _insertionIndex = [self getIndexAfterSpecialStructure:_insertionIndex type:kMTSubIndexTypeSuperscript];
+    [self insertionPointChanged];
+}
+
 - (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
@@ -471,10 +476,10 @@ static const unichar kMTUnicodeGreekCapitalEnd = 0x03A9;
 
 - (void) handleExponentButton
 {
-    if ([_insertionIndex hasSubIndexOfType:kMTSubIndexTypeSuperscript]) {
-        // The index is currently inside an exponent. The exponent button gets it out of the exponent and move forward.
-        _insertionIndex = [self getIndexAfterSpecialStructure:_insertionIndex type:kMTSubIndexTypeSuperscript];
-    } else {
+//    if ([_insertionIndex hasSubIndexOfType:kMTSubIndexTypeSuperscript]) {
+//        // The index is currently inside an exponent. The exponent button gets it out of the exponent and move forward.
+//        _insertionIndex = [self getIndexAfterSpecialStructure:_insertionIndex type:kMTSubIndexTypeSuperscript];
+//    } else {
         // not in an exponent. Add one.
         if (!_insertionIndex.isAtBeginningOfLine) {
             MTMathAtom* atom = [self.mathList atomAtListIndex:_insertionIndex.previous];
@@ -500,7 +505,7 @@ static const unichar kMTUnicodeGreekCapitalEnd = 0x03A9;
             }
             _insertionIndex = [_insertionIndex levelUpWithSubIndex:[MTMathListIndex level0Index:0] type:kMTSubIndexTypeSuperscript];
         }
-    }
+//    }
 }
 
 - (void) handleSubscriptButton
@@ -751,7 +756,7 @@ static const unichar kMTUnicodeGreekCapitalEnd = 0x03A9;
 
 // Return YES if string is a trig function, otherwise return NO
 - (BOOL)isTrigFunction:(NSString *)string {
-    NSArray *trigFunctions = @[@"sin", @"cos", @"tan", @"sec", @"csc", @"cot"];
+    NSArray *trigFunctions = @[@"sin", @"cos", @"tan", @"arcsin", @"arccos", @"arctan", @"log", @"ln"];
 
     for (NSString *trigFunction in trigFunctions) {
         if ([string isEqualToString:trigFunction]) {
