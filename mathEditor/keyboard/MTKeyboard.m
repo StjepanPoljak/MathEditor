@@ -78,22 +78,16 @@
 
 - (IBAction)radTapped:(UIButton *)sender {
     
-    if (!((MTEditableMathLabel *)self.textView).onAMTapped) {
-        
-        return;
-    }
+    if (!((MTEditableMathLabel *)self.textView).onAMTapped) { return; }
     
-    [((MTEditableMathLabel *)self.textView) onAMTapped];
+    ((MTEditableMathLabel *)self.textView).onAMTapped();
 }
 
 - (IBAction)ansTapped:(UIButton *)sender {
     
-    if (!((MTEditableMathLabel *)self.textView).onANSTapped) {
-        
-        return;
-    }
+    if (!((MTEditableMathLabel *)self.textView).onANSTapped) { return; }
     
-    [((MTEditableMathLabel *)self.textView) onANSTapped];
+    ((MTEditableMathLabel *)self.textView).onANSTapped();
 }
 
 
