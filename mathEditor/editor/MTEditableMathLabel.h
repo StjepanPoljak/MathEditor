@@ -73,6 +73,9 @@
 @property (nonatomic) CGFloat fontSize;
 @property (nonatomic) IBInspectable UIEdgeInsets contentInsets;
 
+@property (nonatomic, copy) void (^onAMTapped)(void);
+@property (nonatomic, copy) void (^onANSTapped)(void);
+
 - (void) clear;
 
 - (void) highlightCharacterAtIndex:(MTMathListIndex*) index;
