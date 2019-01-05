@@ -413,6 +413,7 @@
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <connections>
                 <outlet property="exponentButton" destination="0wm-iz-4Mk" id="C2u-HO-6lW"/>
+                <outlet property="radButton" destination="sgN-Sr-4x0" id="cUE-4s-fgo"/>
                 <outlet property="radicalButton" destination="qsC-tJ-tqV" id="ZRk-tJ-NwC"/>
                 <outlet property="squareRootButton" destination="A6b-eo-gYo" id="Bur-ra-Pyw"/>
                 <outlet property="switchButton" destination="JTA-Xk-AXF" id="kTy-gK-RCK"/>

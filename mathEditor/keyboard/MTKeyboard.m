@@ -422,4 +422,12 @@ CGFloat borderWidth = 0.25;
     
 }
 
+- (void) selectRAD {
+    [_radButton setImage: [UIImage imageNamed: @"ic_advanced18"] forState: UIControlStateNormal];
+}
+
+- (void) selectDEG {
+    [_radButton setImage: [UIImage imageNamed: @"ic_degree"] forState: UIControlStateNormal];
+}
+
 @end

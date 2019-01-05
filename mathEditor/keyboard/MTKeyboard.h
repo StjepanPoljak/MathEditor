@@ -89,4 +89,9 @@
 - (void) setSpecialBackgroundColors: (UIColor *)background;
 - (void) setEnterBackgroundColor: (UIColor *)background;
 
+@property (weak, nonatomic) IBOutlet UIButton *radButton;
+
+- (void) selectRAD;
+- (void) selectDEG;
+
 @end

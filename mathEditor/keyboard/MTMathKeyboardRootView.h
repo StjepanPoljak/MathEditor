@@ -49,4 +49,7 @@
 - (void) setSpecialBackgroundColors: (UIColor *)background;
 - (void) setEnterBackgroundColor: (UIColor *)background;
 
+- (void) selectRAD;
+- (void) selectDEG;
+
 @end

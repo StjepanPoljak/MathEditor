@@ -303,4 +303,16 @@ static NSInteger const DEFAULT_KEYBOARD = 0;
     return self.currentKeyboard == _tab2Keyboard;
 }
 
+
+- (void) selectRAD {
+    for (MTKeyboard *keyboard in _keyboards) {
+        [keyboard selectRAD];
+    }
+}
+- (void) selectDEG {
+    for (MTKeyboard *keyboard in _keyboards) {
+        [keyboard selectDEG];
+    }
+}
+
 @end
